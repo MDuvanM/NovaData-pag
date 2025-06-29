@@ -17,25 +17,28 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #DEAA79;
-  color: bisque;
+  background-color: #7EFAFF;
+  color: #000000;
   padding: 20px;
   grid-area: HD;
 }
 
 .barra {
-  background-color: #E88CB9;
+  background-color: #3161A3;
+  color: #000000;
   grid-column: BR;
   grid-area: BR;
+  
 }
 
 .principal {
-  background-color: beige;
+  background-color: #7EFAFF;
+  color: #000000;
   grid-area: PR;
 }
 
 .lateral {
-  background-color: #4B4376;
+  background-color: #EBFFFB;
   grid-area: LT;
 }
 
@@ -43,7 +46,8 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #E88CB9;
+  background-color: #3161A3;
+  color: #000000;
   grid-area: PI;
 }
 
@@ -59,8 +63,8 @@
 }
 
 .menu-horizontal a {
-  background-color: black;
-  color: white;
+  background-color: #EBFFFB;
+  color: #080808;
   text-decoration: none;
   padding: 10px 40px;
   margin: 4px;
@@ -76,7 +80,7 @@
   text-decoration: none;
   padding: 10px 40px;
   margin: 4px;
-  background-color: blue;
+  background-color: #3161A3;
   color: white;
   display: block;
 }
